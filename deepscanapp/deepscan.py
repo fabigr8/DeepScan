@@ -70,7 +70,7 @@ def ds_train():
     MODEL_PATH_PIPEL = os.path.join(MODEL_DIR, MODEL_FILE_PIPEL)
 
     # load data from json
-    with open('response_weclapp_purchase_order.json', encoding='utf-8') as f:
+    with open('train.json', encoding='utf-8') as f:
         data3 = json.load(f)
 
     print(type(data3))
