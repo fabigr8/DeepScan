@@ -1,0 +1,133 @@
+###### json content with single transaction to test inference
+
+
+{
+  "result": [
+    {
+      "id": "4249",
+      "version": "3",
+      "createdDate": 1653663645936,
+      "customAttributes": [],
+      "deliveryAddress": {
+        "company": "Julius-Maximilians Universität Würzburg -  Lehrstuhl BWL und Wirtschaftsinformatik",
+        "countryCode": "DE"
+      },
+      "grossAmount": "282.74",
+      "grossAmountInCompanyCurrency": "282.74",
+      "headerDiscount": "1",
+      "headerSurcharge": "0",
+      "invoiceAddress": {
+        "company": "Julius-Maximilians Universität Würzburg -  Lehrstuhl BWL und Wirtschaftsinformatik",
+        "countryCode": "DE"
+      },
+      "lastModifiedDate": 1653663817023,
+      "netAmount": "237.6",
+      "netAmountInCompanyCurrency": "237.6",
+      "orderDate": 1653602400000,
+      "orderDescription": "Testbestellung",
+      "paymentMethodId": "3493",
+      "paymentMethodName": "Barzahlung",
+      "plannedDeliveryDate": 1653602400000,
+      "purchaseOrderItems": [
+        {
+          "id": "4256",
+          "version": "1",
+          "addPageBreakBefore": false,
+          "articleId": "3726",
+          "articleNumber": "00001",
+          "createdDate": 1653663766943,
+          "customAttributes": [],
+          "description": "\u003cp\u003eBeschreibung\u003c/p\u003e",
+          "discountPercentage": "2",
+          "freeTextItem": false,
+          "grossAmount": "233.24",
+          "grossAmountInCompanyCurrency": "233.24",
+          "lastModifiedDate": 1653663817039,
+          "manualUnitPrice": false,
+          "netAmount": "196",
+          "netAmountForStatistics": "194.04",
+          "netAmountForStatisticsInCompanyCurrency": "194.04",
+          "netAmountInCompanyCurrency": "196",
+          "positionNumber": 1,
+          "quantity": "2",
+          "receivedQuantity": "0",
+          "reductionAdditionItems": [],
+          "supplierArticleId": "3731",
+          "taxId": "2927",
+          "taxName": "Vorsteuer",
+          "title": "Artikel 1",
+          "unitId": "3000",
+          "unitName": "Stk.",
+          "unitPrice": "100",
+          "unitPriceInCompanyCurrency": "100"
+        },
+        {
+          "id": "4259",
+          "version": "0",
+          "addPageBreakBefore": false,
+          "articleId": "3741",
+          "articleNumber": "00002",
+          "createdDate": 1653663804449,
+          "customAttributes": [],
+          "discountPercentage": "0",
+          "freeTextItem": false,
+          "grossAmount": "52.36",
+          "grossAmountInCompanyCurrency": "52.36",
+          "lastModifiedDate": 1653663804449,
+          "manualUnitPrice": false,
+          "netAmount": "44",
+          "netAmountForStatistics": "43.56",
+          "netAmountForStatisticsInCompanyCurrency": "43.56",
+          "netAmountInCompanyCurrency": "44",
+          "positionNumber": 2,
+          "quantity": "1",
+          "receivedQuantity": "0",
+          "reductionAdditionItems": [],
+          "supplierArticleId": "3746",
+          "taxId": "2927",
+          "taxName": "Vorsteuer",
+          "title": "Artikel 2",
+          "unitId": "3000",
+          "unitName": "Stk.",
+          "unitPrice": "44",
+          "unitPriceInCompanyCurrency": "44"
+        }
+      ],
+      "purchaseOrderNumber": "P1000",
+      "purchaseOrderType": "NORMAL",
+      "received": false,
+      "recordAddress": {
+        "city": "Würzburg",
+        "company": "Firma 1",
+        "countryCode": "DE",
+        "street1": "Test Straße",
+        "zipcode": "97072"
+      },
+      "recordCurrencyId": "255",
+      "recordCurrencyName": "EUR",
+      "responsibleUserId": "3969",
+      "responsibleUserUsername": "fabian.gwinner@uni-wuerzburg.de",
+      "sentToRecipient": false,
+      "servicePeriodFrom": 1653775200000,
+      "servicePeriodTo": 1653948000000,
+      "shipmentMethodId": "3460",
+      "shipmentMethodName": "Ab Werk",
+      "shippingCostItems": [],
+      "status": "ORDER_ENTRY_IN_PROGRESS",
+      "statusHistory": [
+        {
+          "status": "ORDER_ENTRY_IN_PROGRESS",
+          "statusDate": 1653663635934,
+          "userId": "3969"
+        }
+      ],
+      "supplierId": "3718",
+      "supplierNumber": "10001",
+      "tags": [],
+      "termOfPaymentId": "3029",
+      "termOfPaymentName": "2/30, net 60",
+      "warehouseId": "3017",
+      "warehouseName": "Hauptlager"
+    }
+    ]
+}
