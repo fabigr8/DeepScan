@@ -57,7 +57,8 @@ cd your-repo
 
 ## Training, Use and Config
 
-please have a look in our 
+please have a look in our documentation, for more details and informations.
+
 Access the API documentation by opening your web browser and visiting: http://localhost:8000/docs
 
 You can adjust the configuration settings by modifying the config.yaml file. Tune parameters related to data preprocessing, model selection to suit your enterprise's needs.
