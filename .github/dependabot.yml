@@ -15,10 +15,9 @@ updates:
         - dependency-name: "javascript"
   - package-ecosystem: "docker"
     directory: "/"
-    allow:
-        - dependency-type: "all"
     schedule:
         interval: "weekly"
-  - package-ecosystem: "javascript"
-    directory: "/"
-    ignore: true
+    allow:
+        - dependency-type: "all"
+    ignore:
+        - dependency-name: "javascript"
