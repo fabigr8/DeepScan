@@ -10,12 +10,12 @@ updates:
     schedule:
         interval: "weekly"
     allow:
-        dependency-type: "all"
+        - dependency-type: "all"
     ignore:
-        dependency-type: "javascript"
+        - dependency-type: "javascript"
   - package-ecosystem: "docker"
     directory: "/"
     allow:
-        dependency-type: "all"
+        - dependency-type: "all"
     schedule:
-        interval: "weekly"
+        - interval: "weekly"
