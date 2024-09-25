@@ -8,5 +8,5 @@ updates:
     - package-ecosystem: "pip"
     directory: "/deepscanapp"
     schedule:
-      interval: "daily"
+      interval: "weekly"
       
