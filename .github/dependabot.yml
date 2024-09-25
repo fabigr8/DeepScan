@@ -11,11 +11,15 @@ updates:
         interval: "weekly"
     allow:
         - dependency-type: "all"
-    ignore:
-        - dependency-name: "javascript"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
         interval: "weekly"
     allow:
         - dependency-type: "all"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+        interval: "weekly"
+    ignore:
+      - dependency-type: "all"
