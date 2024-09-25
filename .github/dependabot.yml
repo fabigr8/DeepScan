@@ -7,10 +7,11 @@ version: 2
 updates:
     - package-ecosystem: "pip"
     directory: "/"
-    allow:
-      - dependency-type: "all"
-    ignore:
-      - dependency-type: "javascript"
     schedule:
-      interval: "weekly"
+        interval: "weekly"
+    allow:
+        - dependency-type: "all"
+    ignore:
+        - dependency-type: "javascript"
+    
       
