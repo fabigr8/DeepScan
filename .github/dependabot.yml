@@ -6,7 +6,11 @@
 version: 2
 updates:
     - package-ecosystem: "pip"
-    directory: "/deepscanapp"
+    directory: "/"
+    allow:
+      - dependency-type: "all"
+    ignore:
+      - dependency-type: "javascript"
     schedule:
       interval: "weekly"
       
