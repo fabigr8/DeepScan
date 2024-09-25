@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-        - interval: "weekly"
+        interval: "weekly"
     allow:
         - dependency-type: "all"
     ignore:
@@ -18,4 +18,4 @@ updates:
     allow:
         - dependency-type: "all"
     schedule:
-        - interval: "weekly"
+        interval: "weekly"
