@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-    package-ecosystem: "pip"
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
         interval: "weekly"
@@ -13,3 +13,9 @@ updates:
         dependency-type: "all"
     ignore:
         dependency-type: "javascript"
+  - package-ecosystem: "docker"
+    directory: "/"
+    allow:
+        dependency-type: "all"
+    schedule:
+        interval: "weekly"
